@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+
+  .container{
+        height:auto ;
+        background-color: orchid;
+        text-align:center ;
+  }
+     .space1{
+            margin: 80px;
+             padding-left: 20px;
+             text-align: start;
+     }
+       .space2 {
+             margin: 30px;
+             padding-top: 5px;
+             padding-bottom: 100px;
+             padding-left: 180px;
+     }
+      .space3{
+              margin: 0px;
+          padding-left: 50px;
+          margin-right: 100px;
+      }
+      .space4{
+              margin-left: 128px;
+      }
+
+      .space5 {
+              margin-left: 192px;
+      }
+
+    </style>
+
+</head>
+<body>
+
+        
+    
+       
+        <div class="container">
+                <h1>Registration Form</h1>
+   <div class="space1">
+ 
+   <form>
+
+         First name - <input type="text" placeholder="First name" style=color:red;  required><br><br>
+      
+         Last name - <input type="text" placeholder="Last name" style=color:red;  required><br><br>
+         DOB -       <input type="text" placeholder="DOB" style=color:red;  required><br><br>
+
+       
+       Password - <input type="password" name="password" style="height: 20px";  size="10" required><br><br>
+    
+      Re-Password - <input type="password" name="Re-password" style="height: 20px";  size="10" required><br><br>
+
+         Email  - <input type="text" name="gmail" size="30" style="color: rgb(255, 0, 0);" required><br><br>
+
+           Age - <input type="text" name="Age" style="width: 2.05%;" style="color: red;" required><br><br>
+
+       Contact No - <input type="text" name="contact" size="10" style="color: orangered;" required><br><br> 
+    
+
+
+        City - <select name="City" style="color: darkorange;"> 
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Aurangabad">Aurangabad</option>
+                <option value="Jalgaon">Jalgaon</option>
+                </select><br><br>
+
+          pincode - <input type="text" name="Pincode" size="5"><br><br> 
+          
+          State - <select name="State" style="color: brown;"><br><br>
+                 <option value="default"></option>
+                 <option value="Maharastra">Maharastra</option>
+                 <option value="Telangana">Telangana</option>
+                 <option value="Tamil Nadu">Tamil Nadu</option>
+                 <option value="West Bengal">West Bengal</option>
+                </select><br><br>
+              
+
+     Gender - <input type="radio" name="gender" value="male" style="width: 1.05%;" required> male
+             <input style="border-radius: 10cm;" type="radio" name="gender" value="female"> female
+             <input style="border-radius: 10cm;" type="radio" name="gender" value="other"> other
+
+             <br><br></b>
+           
+            <b> Hobby - </b> <input type="checkbox" name="hobby" value="read"> reading
+                     <input type="checkbox" name="hobby" value="dance"> dancing
+                     <input type="checkbox" name="hobby" value="play"> playing
+                     <input type="checkbox" name="hobby" value="paint"> painting
+                     <input type="checkbox" name="hobby" name="write"> writing
+                     <input type="checkbox" name="hobby" name="music"> singing <br><br>
+
+                    <b> Select branch - <select name="branch" style="color: brown;">
+                    <option value="default"></option>
+                     <option value="audi">computer</option>
+                     <option value="suzuki">mechanical</option>
+                     <option value="bmw">civil</option>
+                     <option value="flat">chemical</option>
+                     <option value="volvo">electrical</option>
+                     </select> <br><br>
+
+      Choose language  </b> - <input type="radio" name="choose language" value="html"> Html
+                      <input type="radio" name="css" value="CSS"> CSS
+                     <input type="radio" name="javascript" value="JavaScript"> JavaScript
+                     <br><br> 
+                     
+                                  
+        <b> Qualification </b> - <input type="checkbox" name="Qualification" value="S.S.C."> S.S.C. <br><br>
+        <div class="space4">
+                        <input type="checkbox" name="Qualification" value="H.S.C."> H.S.C.<br><br>
+                        <input type="checkbox" name="Qualification" value="Graduation(Bachelors)"> Graduation(Bachelors)<br><br>
+                        <input type="checkbox" name="Qualification" value="Post Graduation(Masters)"> Post Graduation(Masters)<br><br>
+                        <input type="checkbox" name="Qualification" value="Phd"> Phd
+                         <br><br>
+                        </div>
+
+ <b> Courses Applied For - </b> <input type="checkbox" name="Courses Applied For" value="BCA(Bachelor of Computer Application)"> BCA(Bachelor of Computer Application) <br><br>
+             <div class="space5">
+                     <input type="checkbox" name="Courses Applied For" value="B.sc(Bachelor of Science)"> B.sc(Bachelor of Science)<br><br>
+                     <input type="checkbox" name="Courses Applied For" value="B.tech(Bachelor of Technology)"> B.Tech(Bachelor of Technology)<br><br>
+                     <input type="checkbox" name="Courses Applied For" value=" M.tech(Masters of Technology)"> M.tech(Masters of Technology)<br><br>
+                     <input type="checkbox" name="Courses Applied For" value="M.A(Masters of Arts)"> M.A(Masters of Arts)
+                     <br><br>
+                </div>
+                       
+    <b>  Upload ID proof - <select name="ID proof" style="color: brown;">
+                          <option value="default"></option>  
+                          <option value="Adhar Card">Adhar Card</option>> 
+                          <option value="Indian passport">Indian passport</option>> 
+                          <option value="PAN card">PAN card</option>
+                          <option value="Driving Licence">Driving Licence</option> 
+                          <option value="Voter Card">Voter Card</option>
+                          <input type="file" name="img">
+                        </select><br><br>
+
+         Upload  CV - <input type="file" name="img"><br><br>            
+
+    Comment -  <textarea name="comment" cols="80" rows="5" style="color: darkmagenta;"></textarea><br><br>
+
+    Use browsers - <input list="browsers" name="browsers" style="color: brown;">
+        <dataList id="browsers">
+                <option value="firefox">
+                <option value="chrome">
+                <option value="safari">
+                <option value="operamini">
+                </dataList> <br><br>
+
+       Number of subject - <input type="number" name="quantity" min="1" max="10" value="0">
+     <br><br>
+
+        <div class="space2">
+
+             <input type="Submit" value="Submit">
+             <input type="Reset" value="Reset All" >
+       
+        </div>
+         </b>
+   </div>
+   </div>
+
+   </form>
+
+</body>
+</html>
